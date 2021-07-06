@@ -1,0 +1,71 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  
+    int a,b,c,d,e,f,g,h,result1,result2,result3,result4;
+    int add,sub,multiply,division;
+    int choice;
+    cout<<"WELCOME TO THE CALCULATAR:";
+      
+         	cout<<"1.ADDITION"<<endl;
+         	cout<<"2.SUBTRACTION"<<endl;
+         	cout<<"3.MULTIPLICATION"<<endl;
+         	cout<<"4.Division"<<endl;
+         	cout<<"Enter the choice:";
+         	cin>>choice;
+         	switch(choice)
+         	{
+         		    case 1:
+         			cout<<"FOR ADDITION PLEASE ENTER THE VALUES:"<<endl;
+         			cout<<"Enter the value of a:";
+         			cin>>a;
+         			cout<<"Enter the value of b: ";
+         			cin>>b;
+         			result1=a+b;
+         			cout<<"The result is:"<<result1<<endl;
+         			break;
+         			case 2:
+         		    cout<<"FOR SUBTRACTION PLEASE ENTER THE VALUES:"<<endl;
+         			cout<<"Enter the value of c:";
+         			cin>>c;
+         			cout<<"Enter the value of d: ";
+         			cin>>d;
+         			result2=c-d;
+         			cout<<"The result is:"<<result2<<endl;	
+         			break;
+         			case 3:
+         			cout<<"FOR MULTPILICATION PLEASE ENTER THE VALUES:"<<endl;
+         			cout<<"Enter the value of e:";
+         			cin>>e;
+         			cout<<"Enter the value of f: ";
+         			cin>>f;
+         			result3=e*f;
+         			cout<<"The result is:"<<result3<<endl;
+         			break;
+         			case 4:
+         			cout<<"FOR DIVISION PLEASE ENTER THE VALUES:"<<endl;
+         			cout<<"Enter the value of :";
+         			cin>>g;
+         			cout<<"Enter the value of b: ";
+         			cin>>h;
+         			result4=g/h;
+         			cout<<"The result is:"<<result4<<endl;	
+         		    break;
+         		    case 5:
+         		    	cout<<"Enetr the wrong choice:   DSEDUNEED   123syedmuneebshah78lo "<<endl;;
+         		    break;
+         		    default:
+         		    break;
+		    
+	            	}
+         	
+		 
+   
+         
+     
+	
+    
+	return 0;
+
+}
